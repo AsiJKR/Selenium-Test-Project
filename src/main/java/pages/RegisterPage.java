@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class RegisterPage {
 
-    static WebDriver driver = new ChromeDriver();
+    public static WebDriver driver = new ChromeDriver();
 
     static By firstname = By.xpath("//input[@id='firstName']");
     static By lastname = By.xpath("//input[@id='lastName']");
